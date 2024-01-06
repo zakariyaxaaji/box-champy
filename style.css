@@ -1,0 +1,31 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*a{
+    text-decoration: none;
+}
+body{
+    font-size: 16px; 
+}
+:root{
+    /* colors */
+    --red: #B11022; 
+    --black: #000000; 
+    --soft-grey: #434444; 
+    --white: #FFFFFF; 
+    
+    /* fonts */
+    --body-font: 'Inter', sans-serif;
+    --title-font: 'Inter', sans-serif;
+    --menue-font: 'Saira Condensed', sans-serif;
+}
+header{
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 65%);
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/Boy\ fight\ 1.png);
+    background-repeat: no-repeat;
+    background-color: grey;
+}
