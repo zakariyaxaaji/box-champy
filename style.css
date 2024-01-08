@@ -22,10 +22,54 @@ body{
     --menue-font: 'Saira Condensed', sans-serif;
 }
 header{
-    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 65%);
-    width: 100%;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 70%, 0px 100%);
+    background-color: tomato;
     height: 50vh;
-    background-image: url(images/Boy\ fight\ 1.png);
-    background-repeat: no-repeat;
-    background-color: grey;
 }
+nav{
+    display: flex; 
+    background-color:black;
+    justify-content: space-between;
+    margin: 0 160px;
+}
+
+.logo{
+    flex:2;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: var(--menue-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; /* 28.8px */
+    text-transform: uppercase;
+
+}
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    color: #FFF;
+    font-family:var(--menue-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 17.6px */
+}
+header>h1{
+    color: #FFF;
+    font-family: var(--title-font);
+    font-size: 123px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; /* 110.7px */
+    text-transform: uppercase;
+    margin: 133px 414px 218px 160px;
+}
+header>h1>span{
+    color:var(--red);
+}
+
